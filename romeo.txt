@@ -1,0 +1,28 @@
+ We use the index operator, x sub 2 We can use the constant syntax, 
+ we assign these things in. In a printout, just prints it out like the constant syntax.
+  And it just has no square braces, but instead parentheses. Things like max use tuples,
+   it looks through a sequence of things. List is a sequence, tuples are a sequence, 
+   a string is a sequence, and so max looks through them. And the for loop basically 
+   creates an iteration variable and then bounces through the things that are in a tuple. 
+   And so in a way, these are the same, right, the same. Now there are differences. 
+   The place where there are differences are that tuples are not changeable, not, 
+   they're immutable. And if you recall strings are also not mutable. And so if we take a look.
+    If we have a list 9, 8, 7, and we can change x[2] to 6 and then that changes the 7 to be a 6.
+     Lists are mutable. Here we have a three character string 'ABC' and we want to do character 2
+      and turn that to a D with this assignment statement, and Python says no we're not allowed to do that,
+       that is a traceback. And the same thing happens with a tuple where we want to do z[2] = 0. 
+       And it says sorry, you cannot change, so these are not mutable. So the difference is lists are mutable 
+       and then strings and tuples are not mutable. But that's part of the efficiency of tuples is that
+        they're not mutable and that allows them to be stored more densely than lists. And so there's 
+        a whole bunch of things that can't be done with tuples. You can't sort a tuple.
+         Whatever order you put the tuple in when you create it, it stays in that.
+          You can't append, you can't extend it, you can't flip it with a reverse, 
+          lots of things don't work. And if you take a look at the directory output
+           of lists and tuples, you see whoa, it's a subset. You can do count and index.
+            Count looks up how many things match a particular value, index says where is
+             a particular value, but you can't do append or extend or insert, pop,
+              remove. Because all those methods inside lists that tuples don't have 
+              are the ones that make changes to it. So it's prohibited but it also allows
+               Python to be more efficient knowing that tuples are not going to be changed.
+                Lists it has to actually allocate extra memory and stuff like that to let them be changed.
+Reproduza o vídeo começando em :3:2 e siga a transcrição
